@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
+#EXTM3U url-tvg="https://ghfast.top/https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV1.png" , CCTV1
 rtp://239.253.226.77:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV2.png" , CCTV2
