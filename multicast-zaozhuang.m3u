@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://ghfast.top/https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
+#EXTM3U url-tvg="https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV1.png" , CCTV1
 rtp://239.253.226.77:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV2.png" , CCTV2
@@ -39,7 +39,7 @@ rtp://239.253.226.170:8000?fcc=124.132.240.66:15970
 rtp://239.253.226.168:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV4K.png" , CCTV4K
 rtp://239.253.226.122:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="山东卫视4K" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视4K.png" , 山东卫视4K
+#EXTINF:-1 tvg-name="山东卫视4K" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视4K.png" , 山东卫视4K
 rtp://239.253.226.172:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="江苏卫视4K" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/江苏卫视4K.png" , 江苏卫视4K
 rtp://239.253.226.133:8000?fcc=124.132.240.66:15970
@@ -111,8 +111,6 @@ rtp://239.253.226.66:8000?fcc=124.132.240.66:15970
 rtp://239.253.226.82:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/金鹰纪实.png" , 金鹰纪实
 rtp://239.253.226.103:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="茶" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/茶.png" , 茶
-rtp://239.253.226.143:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="快乐垂钓" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/快乐垂钓.png" , 快乐垂钓
 rtp://239.253.226.144:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/金鹰卡通.png" , 金鹰卡通
@@ -177,12 +175,12 @@ rtp://239.253.226.56:8000?fcc=124.132.240.66:15970
 rtp://239.253.226.57:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/宁夏卫视.png" , 宁夏卫视
 rtp://239.253.226.150:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山西卫视.png" , 山西卫视
-rtp://239.253.226.48:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="陕西卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/陕西卫视.png" , 陕西卫视
 rtp://239.253.226.49:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/内蒙古卫视.png" , 内蒙古卫视
 rtp://239.253.226.58:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山西卫视.png" , 山西卫视
+rtp://239.253.226.48:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="农林卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/农林卫视.png" , 农林卫视
 rtp://239.253.226.70:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="厦门卫视" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/厦门卫视.png" , 厦门卫视
@@ -203,8 +201,6 @@ rtp://239.253.226.118:8000?fcc=124.132.240.66:15970
 rtp://239.253.226.161:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="生态环境" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/生态环境.png" , 生态环境
 rtp://239.253.226.119:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="中华特产" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/中华特产.png" , 中华特产
-rtp://239.253.226.76:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="中国交通" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/中国交通.png" , 中国交通
 rtp://239.253.226.177:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="动漫秀场" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/动漫秀场.png" , 动漫秀场
