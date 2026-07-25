@@ -1,9 +1,5 @@
-#EXTM3U x-tvg-url="https://ghfast.top/https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
-#EXTINF:-1 tvg-id="ch00000000000000001128" group-title="央视频道" tvg-name="CCTV1" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV1.png" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.202:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV1
+#EXTM3U
+#EXTINF:-1 tvg-id="ch00000000000000001128" group-title="央视频道" tvg-name="CCTV1" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.202:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV1
 http://10.0.0.9:5100/rtp/239.253.226.77:8000?fcc=124.132.240.66:15970
-
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV2.png" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch15111015505054435886.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV2
+#EXTINF:-1 tvg-id="ch00000000000000001219" group-title="央视频道" tvg-name="CCTV2" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.208:1554/iptv/Tvod/iptv/001/001/ch15111015505054435886.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV2
 http://10.0.0.9:5100/rtp/239.253.226.232:8000?fcc=124.132.240.66:15970
-
-#EXTINF:-1 tvg-id="ch00000000000000002239" group-title="卫视频道" tvg-name="山东卫视4K" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.204:1554/iptv/Tvod/iptv/001/001/ch25081411425529721444.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",山东卫视4K
-http://10.0.0.9:5100/rtp/239.253.226.172:8000?fcc=124.132.240.66:15970
