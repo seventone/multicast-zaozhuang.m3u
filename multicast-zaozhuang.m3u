@@ -253,7 +253,6 @@ http://10.0.0.9:5100/rtp/239.253.226.71:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="山东经济广播" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东经济广播.png" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.208:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",山东经济广播
 http://10.0.0.9:5100/rtp/239.253.226.166:8000?fcc=124.132.240.66:15970
 
-
 #EXTINF:-1 tvg-name="谍战剧场" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/谍战剧场.png" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.199:1554/iptv/Tvod/iptv/001/001/ch13031310523562855603.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",谍战剧场
 http://10.0.0.9:5100/rtp/239.253.226.135:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="城市剧场" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/城市剧场.png" catchup="default" catchup-source="http://10.0.0.9:5100/rtsp/60.214.108.202:1554/iptv/Tvod/iptv/001/001/ch15090914573308932938.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",城市剧场
