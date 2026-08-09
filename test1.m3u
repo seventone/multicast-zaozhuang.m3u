@@ -1,6 +1,3 @@
-#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/EPG/sggc.xml.gz"
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV1.png" catchup="default" catchup-source="rtsp://112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV1
-http://192.168.100.1:5140/rtp/239.253.226.77:8000?fcc=124.132.240.66:15970
-
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV2.png" catchup="default" catchup-source="rtsp://112.245.125.70:1554/iptv/Tvod/iptv/001/001/ch15111015505054435886.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV2
-rtsp://112.245.125.71:1554/iptv/import/Tvod/iptv/001/001/ch15111015505054435886.rsc/77651_Uni.sdp
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz" 
+#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV1.png" catchup="default" catchup-source="rtsp://112.245.125.70:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV1
+http://10.0.0.10:5100/rtp/239.253.226.77:8000?fcc=124.132.240.66:15970
