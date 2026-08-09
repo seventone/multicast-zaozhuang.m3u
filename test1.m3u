@@ -1,17 +1,12 @@
 #EXTM3U
-# 精简诊断清单：请逐个测试并告诉我哪个能出画面、哪个报什么错
-# 对比项1(对照，应能播): CCTV1 Tvod直连
-#EXTINF:-1 group-title="对照" tvg-name="CCTV1对照",CCTV1对照
-http://10.0.0.10:5100/rtsp/60.214.109.39:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc/62815_Uni.sdp
-# 对比项2: 北京卫视4K 裸live(.37入口)
-#EXTINF:-1 group-title="裸live" tvg-name="北京4K裸live37",北京4K裸live37
-http://10.0.0.10:5100/rtsp/60.214.109.37:554/live/ch25032514071097767315.sdp?playtype=1&boid=001&clienttype=1&time=20260809160000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch25032514071097767315
-# 对比项3: 北京卫视4K 裸live(.4入口)
-#EXTINF:-1 group-title="裸live" tvg-name="北京4K裸live4",北京4K裸live4
-http://10.0.0.10:5100/rtsp/60.214.109.4:554/live/ch25032514071097767315.sdp?playtype=1&boid=001&clienttype=1&time=20260809160000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch25032514071097767315
-# 对比项4: 广东4K 裸live(.37入口)
-#EXTINF:-1 group-title="裸live" tvg-name="广东4K裸live37",广东4K裸live37
-http://10.0.0.10:5100/rtsp/60.214.109.37:554/live/ch25062414535257116401.sdp?playtype=1&boid=001&clienttype=1&time=20260809160000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch25062414535257116401
-# 对比项5: 北京卫视4K 抓包完整import URL(带AuthInfo, 可能已过期)
-#EXTINF:-1 group-title="抓包import" tvg-name="北京4K抓包import",北京4K抓包import
-http://10.0.0.10:5100/rtsp/60.214.109.13:1554/iptv/import/Tvod/iptv/001/001/ch25032514071097767315.rsc/102838_Uni.sdp?lvst=3&nodeid=node22011110143373&TSTVTimeLife=10800&userid=063202064413&userip=100.90.202.21&time=20260809011311.360+00&life=86400000&transferproviderid=001&ctype=01&sid=353609438&purl=NjAuMjE0LjEwOS40OjU1NC9saXZlL2NoMjUwMzI1MTQwNzEwOTc3NjczMTUuc2RwP3Byb2ZpbGVjb2RlPSZjdHlwZT01Jm1lZGlhaWQ9Y2gyNTAzMjUxNDA3MTA5Nzc2NzMxNQ&domain=0&phycid=ch25032514071097767315&playtype=1&ifpricereqsnd=1&boid=001&authid=0&mediaid=ch25032514071097767315&urtm=1&agnt=NjAuMjE0LjEwOS40OjU1NA&sadr=NjAuMjE0LjEwOS4xMw&iptvsessionid=115209856&cryptmode=0502&crypt=D0375E7CC9D63C82FFEC394F32DD3B78
+# 判别实验：CCTV1(开放频道) 走裸live，对比北京4K
+# 1. CCTV1 裸live(.37) —— 若可播：裸live链路OK，问题在4K/import频道权限
+#    若也403：问题在请求方式/身份，与频道无关
+#EXTINF:-1 group-title="判别" tvg-name="CCTV1裸live37",CCTV1裸live37
+http://10.0.0.10:5100/rtsp/60.214.109.37:554/live/ch12122514263996485740.sdp?playtype=1&boid=001&clienttype=1&time=20260809163000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch12122514263996485740
+#EXTINF:-1 group-title="判别" tvg-name="CCTV1裸live4",CCTV1裸live4
+http://10.0.0.10:5100/rtsp/60.214.109.4:554/live/ch12122514263996485740.sdp?playtype=1&boid=001&clienttype=1&time=20260809163000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch12122514263996485740
+#EXTINF:-1 group-title="判别" tvg-name="CCTV1裸live_补参",CCTV1裸live_补参
+http://10.0.0.10:5100/rtsp/60.214.109.37:554/live/ch12122514263996485740.sdp?playtype=1&boid=001&clienttype=1&time=20260809163000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch12122514263996485740&ctype=5&TSTVTimeLife=10800&authid=0&UserLiveType=1&stbid=0000043700078100020120BEB404DB
+#EXTINF:-1 group-title="判别" tvg-name="北京4K裸live37对照",北京4K裸live37对照
+http://10.0.0.10:5100/rtsp/60.214.109.37:554/live/ch25032514071097767315.sdp?playtype=1&boid=001&clienttype=1&time=20260809163000+08&life=172800&ifpricereqsnd=1&vcdnid=001&userid=063202064413&mediaid=ch25032514071097767315
