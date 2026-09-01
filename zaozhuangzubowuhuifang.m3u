@@ -37,7 +37,7 @@ http://10.0.0.30:5100/rtp/239.253.226.170:8000?fcc=124.132.240.66:15970
 http://10.0.0.30:5100/rtp/239.253.226.168:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV4K.png" , CCTV4K
 http://10.0.0.30:5100/rtp/239.253.226.122:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="山东卫视4K" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视4K.png" , 山东卫视4K
+#EXTINF:-1 tvg-name="山东卫视4K" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视4K.png" , 山东卫视4K
 http://10.0.0.30:5100/rtp/239.253.226.172:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="江苏卫视4K" group-title="卫视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/江苏卫视4K.png" , 江苏卫视4K
 http://10.0.0.30:5100/rtp/239.253.226.133:8000?fcc=124.132.240.66:15970
